@@ -103,4 +103,11 @@ int main()
 
     Student tom = bob;
     StudentPrint(tom);
+
+    Date date1{ 10, 5, 1998 };
+    Date date2{ 23, 8, 2001 };
+
+    Date temp = date1;
+    date1 = date2;
+    date2 = temp;
 }
